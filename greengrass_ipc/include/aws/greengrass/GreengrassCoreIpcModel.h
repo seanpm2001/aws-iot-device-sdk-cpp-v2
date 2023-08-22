@@ -19,9 +19,9 @@ namespace Aws
 {
     namespace Greengrass
     {
-        class AWS_GREENGRASS_API GreengrassCoreIpcClient;
-        class AWS_GREENGRASS_API GreengrassCoreIpcServiceModel;
-        class UserProperty : public AbstractShapeBase
+        class GreengrassCoreIpcClient;
+        class GreengrassCoreIpcServiceModel;
+        class AWS_GREENGRASS_API UserProperty : public AbstractShapeBase
         {
           public:
             UserProperty() noexcept {}
@@ -57,7 +57,7 @@ namespace Aws
             DETAILED_DEPLOYMENT_STATUS_REJECTED
         };
 
-        class MessageContext : public AbstractShapeBase
+        class AWS_GREENGRASS_API MessageContext : public AbstractShapeBase
         {
           public:
             MessageContext() noexcept {}
@@ -97,7 +97,7 @@ namespace Aws
             METRIC_UNIT_TYPE_SECONDS
         };
 
-        class DeploymentStatusDetails : public AbstractShapeBase
+        class AWS_GREENGRASS_API DeploymentStatusDetails : public AbstractShapeBase
         {
           public:
             DeploymentStatusDetails() noexcept {}
